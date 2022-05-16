@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,8 @@ namespace ViDu_2_6
         {
             string a;
             a = (5 > 3) ? "Dung" : "Sai";
+            Console.WriteLine(a);
+            Console.Read();
         }
     }
 }
